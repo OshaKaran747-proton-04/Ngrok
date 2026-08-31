@@ -1,10 +1,10 @@
-name: Windows RDP via Ngrok
+name: RDP NGROK
 on:
   push:
   workflow_dispatch:
 jobs:
   rdp-setup:
-    runs-on: windows-latest
+    runs-on: windows-2025
     timeout-minutes: 360  # 6 hour max (GitHub Free limit)
 
     steps:
